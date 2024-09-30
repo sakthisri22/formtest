@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .lef {
+            text-align: right;
+        }
+        
+        .le {
+            box-sizing: border-box;
+            border-top: 2px;
+            border-left: 2px;
+            border-right: 2px;
+        }
+        
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        input[type=textarea] {
+            border: none;
+            height: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1> Besant Technologies</h1>
+        <p style="font-size: 24px;">
+            <b>Anna Nagar</b>
+        </p>
+    </div>
+    <p style="text-align: left;font-weight: 600;">Enquiry form</p>
+    <div class="lef">
+        <label for="date">Date:</label>
+        <input class="le" type="number" id="date" name="date">
+    </div>
+    <label for="name">Name:</label>
+    <input class="le" type="text" id="name" name="name"><br><br>
+    <label for="mobile">Mobile.no:</label>
+    <input class="le" type="phone" id="mobile" name="mobile">
+    <label for="Alternate">Alternate no:</label>
+    <input class="le" type="phone" id="Alternate" name="Alternate"><br><br>
+    <label for="Email">Email ID:</label>
+    <input class="le" type="Email" id="Email" name="email"><br><br>
+    <label for="loc">Current Location:</label>
+    <input class="le" type="text" id="loc" name="loc">
+    <br><br>
+    <label for="course">Course Intrested:</label>
+    <input class="le" type="text" id="course" name="course">
+    <br><br>
+    <label>Batch preferred:</label>
+    <input type="radio">Weekday
+    <input type="radio"> Weekends<br><br>
+    <label>PROFESSION:</label>
+    <input type="radio" style="background-color: aqua;">student
+    <input type="radio">Fresher
+    <input type="radio">Exp in IT
+    <input type="radio"> Exp in NonIT
+    <input type="radio">Career break<br><br>
+
+    <table style="width:100%;">
+        <tr>
+            <th>Student<br>School/Diploma/College</th>
+            <th>Fresher<br>UG/PG</th>
+            <th>Years of<br> Exp in IT Diploma</th>
+            <th>Years of
+                <br> Exp in NON IT </th>
+            <th>How many years<br> Carrer break</th>
+        </tr>
+        <tr>
+            <td><input type="textarea"></td>
+            <td><input type="textarea"></td>
+            <td><input type="textarea"></td>
+            <td><input type="textarea"></td>
+
+        </tr>
+    </table><br><br>
+    <label for="exp">Exp in IT or NON IT Company NAME</label>
+    <input class="le" type="text" id="exp" name="exp"><br><br>
+    <label>Are you interested AS become a trainer?</label>
+    <input type="radio">Yes
+    <input type="radio"> No<br><br>
+    <label>How did you Hear About Us:</label>
+    <input type="radio">Google search
+    <input type="radio">Social Media
+    <input type="radio">Reference<br><br>
+    <label for="con">Contact Person fronm Besant Technologies</label>
+    <input class="le" type="text" id="con" name="con"><br><br>
+    <p style="font-weight: 600;">Office use</p>
+    <label for="coun">Counseller:</label>
+    <input class="le" type="text" id="coun" name="coun">
+
+    <label for="FEE">Fees:</label>
+    <input class="le" type="text" id="fee" name="fee"><br><br>
+    <label for="sta">Status:</label>
+    <input class="le" type="text" id="sta" name="sta">
+    <label for="com">Comment</label>
+    <input class="le" type="text" id="com" name="com"><br><br>
+
+</body>
+
+</html>
